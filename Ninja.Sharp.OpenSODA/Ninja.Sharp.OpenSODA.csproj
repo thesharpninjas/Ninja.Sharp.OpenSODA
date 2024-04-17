@@ -6,15 +6,18 @@
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>A .net driver for Simple Oracle Document Access (SODA)</Title>
-		<Version>0.0.1.0</Version>
-		<Company>Sharp Ninjas</Company>
-		<Authors>Sharp Ninjas</Authors>
+		<Version>0.0.1-alpha</Version>
+		<Company>The Sharp Ninjas</Company>
+		<Authors>The Sharp Ninjas</Authors>
 		<Product>OpenSODA</Product>
 		<Copyright>Copyright © 2024</Copyright>
-		<Description>Lorem ipsum</Description>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Description>Core package for OpenSODA</Description>
 		<PackageTags>Oracle,SODA</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageProjectUrl>https://github.com/thesharpninjas/Ninja.Sharp.OpenSODA</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/thesharpninjas/Ninja.Sharp.OpenSODA</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -26,13 +29,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Include="..\LICENSE.txt">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+		</None>
 		<None Include="..\README.md">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
-		<None Update="LICENSE.txt">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
+		<None Include="..\icon.png">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
 
