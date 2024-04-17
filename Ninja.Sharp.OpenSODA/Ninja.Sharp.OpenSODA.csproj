@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>A .net driver for Simple Oracle Document Access (SODA)</Title>
+		<Version>0.0.1.0</Version>
+		<Company>Sharp Ninjas</Company>
+		<Authors>Sharp Ninjas</Authors>
+		<Product>OpenSODA</Product>
+		<Copyright>Copyright © 2024</Copyright>
+		<Description>Lorem ipsum</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>Oracle,SODA</PackageTags>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="$(AssemblyName).Driver.Rest" />
+		<InternalsVisibleTo Include="$(AssemblyName).Driver.Sql.Native" />
+		<InternalsVisibleTo Include="$(AssemblyName).Driver.Sql.Qbe" />
+		<InternalsVisibleTo Include="DynamicProxyGenAssembly2" />
+		<InternalsVisibleTo Include="$(TestProjectName)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

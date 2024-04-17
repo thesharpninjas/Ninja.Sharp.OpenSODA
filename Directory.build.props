@@ -1,0 +1,7 @@
+<Project>
+    <PropertyGroup>
+        <TestProjectName Condition="'$(TestProjectName)' == ''">
+			$([System.IO.Path]::GetFileName($([System.IO.Path]::GetDirectoryName($([System.IO.Directory]::GetFiles("$(MSBuildThisFileDirectory)", "*.Unit.Tests.csproj", System.IO.SearchOption.AllDirectories)[0])))))
+		</TestProjectName>
+    </PropertyGroup>
+</Project>
