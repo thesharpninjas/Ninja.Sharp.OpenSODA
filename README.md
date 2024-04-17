@@ -214,4 +214,14 @@ The current available primitives are
  Some queries could be highly inefficient: often SODA will perform a full table scan to retrieve some data.
  We suggest to manually add a global index if you're using Sql.Native provider, and to add partitioning and cluster indexes if you're using Sql.QBE.
 
+ ## Contributing
+Thank you for considering to help out with the source code!
+If you'd like to contribute, please fork, fix, commit and send a pull request for the maintainers to review and merge into the main code base.
+ 
+**Getting started with Git and GitHub**
+ 
+* [Setting up Git for Windows and connecting to GitHub](http://help.github.com/win-set-up-git/)
+* [Forking a GitHub repository](http://help.github.com/fork-a-repo/)
+* [The simple guide to GIT guide](http://rogerdudler.github.com/git-guide/)
+* [Open an issue](https://github.com/thesharpninjas/Ninja.Sharp.OpenSODA/issues) if you encounter a bug or have a suggestion for improvements/features
 ****
