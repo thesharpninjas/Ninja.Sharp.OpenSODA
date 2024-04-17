@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ninja.Sharp.OpenSODA", "Ninja.Sharp.OpenSODA\Ninja.Sharp.OpenSODA.csproj", "{A07D48F8-5A68-440E-9953-3EF0DF988A97}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ninja.Sharp.OpenSODA.Client", "tests\Ninja.Sharp.OpenSODA.Client\Ninja.Sharp.OpenSODA.Client.csproj", "{E5F3F9BF-4648-496E-80BA-FB5A07500849}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ninja.Sharp.OpenSODA.Unit.Tests", "tests\Ninja.Sharp.OpenSODA.Unit.Tests\Ninja.Sharp.OpenSODA.Unit.Tests.csproj", "{D98A29AD-B6EE-4171-8207-ECC15005BE3B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ninja.Sharp.OpenSODA.Driver.Rest", "Ninja.Sharp.OpenSODA.Driver.Rest\Ninja.Sharp.OpenSODA.Driver.Rest.csproj", "{D519DF38-37BB-4725-AAA1-339D2541C66A}"
