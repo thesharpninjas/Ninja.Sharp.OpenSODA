@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Nuget](https://img.shields.io/nuget/v/Ninja.Sharp.OpenSODA?style=plastic)](https://www.nuget.org/packages?q=Ninja.Sharp.OpenSODA)
 
 OpenSODA - a .Net driver for Oracle SODA
 ========================================

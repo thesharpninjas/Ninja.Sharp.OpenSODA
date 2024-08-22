@@ -20,6 +20,12 @@ namespace Ninja.Sharp.OpenSODA.Extensions
 
         internal static string Serialize<T>(this T item)
         {
+            if (item == null)
+            {
+                var requestedTypeName = typeof(T).Name;
+                throw new ArgumentNullException(requestedTypeName, "The item to serialize cannot be null.");
+            }
+            
             var myOptions = options;
             return JsonSerializer.Serialize(item, myOptions);
         }
