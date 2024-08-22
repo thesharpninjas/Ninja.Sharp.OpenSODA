@@ -10,10 +10,10 @@ Packages
 
 | Package | NuGet Stable | 
 | ------- | ------------ | 
-| [OpenSODA](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA/) | [![OpenSODA](https://img.shields.io/badge/nuget-v0.0.1-blue)](https://www.nuget.org/packages/OpenSODA/)
-| [OpenSODA.Driver.Rest](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Rest/) | [![OpenSODA](https://img.shields.io/badge/nuget-v0.0.1-blue)](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Rest/) | 
-| [OpenSODA.Driver.Sql.Native](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Sql.Native/) | [![OpenSODA](https://img.shields.io/badge/nuget-v0.0.1-blue)](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Sql.Native/) | 
-| [OpenSODA.Driver.Sql.Qbe](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Sql.Qbe/) | [![OpenSODA](https://img.shields.io/badge/nuget-v0.0.1-blue)](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Sql.Qbe/) | 
+| [OpenSODA](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA/) | [![OpenSODA](https://img.shields.io/badge/nuget-v1.0.0-blue)](https://www.nuget.org/packages/OpenSODA/)
+| [OpenSODA.Driver.Rest](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Rest/) | [![OpenSODA](https://img.shields.io/badge/nuget-v1.0.0-blue)](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Rest/) | 
+| [OpenSODA.Driver.Sql.Native](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Sql.Native/) | [![OpenSODA](https://img.shields.io/badge/nuget-v1.0.0-blue)](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Sql.Native/) | 
+| [OpenSODA.Driver.Sql.Qbe](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Sql.Qbe/) | [![OpenSODA](https://img.shields.io/badge/nuget-v1.0.0-blue)](https://www.nuget.org/packages/Ninja.Sharp.OpenSODA.Driver.Sql.Qbe/) | 
 
 
 Package Purposes:
