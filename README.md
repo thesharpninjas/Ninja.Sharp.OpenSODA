@@ -5,7 +5,6 @@ OpenSODA - a .Net driver for Oracle SODA
 [![issues - Ninja.Sharp.OpenSODA](https://img.shields.io/github/issues/thesharpninjas/Ninja.Sharp.OpenSODA)](https://github.com/thesharpninjas/Ninja.Sharp.OpenSODA/issues)
 [![stars - Ninja.Sharp.OpenSODA](https://img.shields.io/github/stars/thesharpninjas/Ninja.Sharp.OpenSODA?style=social)](https://github.com/thesharpninjas/Ninja.Sharp.OpenSODA)
 
-========================================
 Release Notes
 -------------
 First release has been created!
