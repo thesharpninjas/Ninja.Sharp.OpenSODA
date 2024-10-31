@@ -1,7 +1,10 @@
+OpenSODA - a .Net driver for Oracle SODA
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Nuget](https://img.shields.io/nuget/v/Ninja.Sharp.OpenSODA?style=plastic)](https://www.nuget.org/packages?q=Ninja.Sharp.OpenSODA)
+[![issues - Ninja.Sharp.OpenSODA](https://img.shields.io/github/issues/thesharpninjas/Ninja.Sharp.OpenSODA)](https://github.com/thesharpninjas/Ninja.Sharp.OpenSODA/issues)
+[![stars - Ninja.Sharp.OpenSODA](https://img.shields.io/github/stars/thesharpninjas/Ninja.Sharp.OpenSODA?style=social)](https://github.com/thesharpninjas/Ninja.Sharp.OpenSODA)
 
-OpenSODA - a .Net driver for Oracle SODA
 ========================================
 Release Notes
 -------------
@@ -212,18 +215,16 @@ The current available primitives are
 
  More operands will be released in the future.
 
- ## Limitations
- Some queries could be highly inefficient: often SODA will perform a full table scan to retrieve some data.
- We suggest to manually add a global index if you're using Sql.Native provider, and to add partitioning and cluster indexes if you're using Sql.QBE.
+## Limitations
+Some queries could be highly inefficient: often SODA will perform a full table scan to retrieve some data.
+We suggest to manually add a global index if you're using Sql.Native provider, and to add partitioning and cluster indexes if you're using Sql.QBE.
 
- ## Contributing
+### Contributing
 Thank you for considering to help out with the source code!
 If you'd like to contribute, please fork, fix, commit and send a pull request for the maintainers to review and merge into the main code base.
- 
+
 **Getting started with Git and GitHub**
- 
-* [Setting up Git for Windows and connecting to GitHub](http://help.github.com/win-set-up-git/)
-* [Forking a GitHub repository](http://help.github.com/fork-a-repo/)
-* [The simple guide to GIT guide](http://rogerdudler.github.com/git-guide/)
-* [Open an issue](https://github.com/thesharpninjas/Ninja.Sharp.OpenSODA/issues) if you encounter a bug or have a suggestion for improvements/features
-****
+
+ * [Setting up Git](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git)
+ * [Fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+ * [Open an issue](https://github.com/thesharpninjas/Ninja.Sharp.OpenSODA/issues) if you encounter a bug or have a suggestion for improvements/features
