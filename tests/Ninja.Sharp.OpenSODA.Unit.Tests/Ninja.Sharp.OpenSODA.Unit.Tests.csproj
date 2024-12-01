@@ -10,7 +10,7 @@
 	<ItemGroup>
 		<PackageReference Include="autofixture" Version="4.18.1" />
 		<PackageReference Include="autofixture.xunit2" Version="4.18.1" />
-		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
 		<PackageReference Include="moq" Version="4.20.72" />
 		<PackageReference Include="system.net.http" Version="4.3.4" />
 		<PackageReference Include="system.text.regularexpressions" Version="4.3.1" />
